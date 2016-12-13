@@ -1,7 +1,5 @@
 #!/bin/bash
 
-#echo "\n\r \x1b[36mmain/user/tests/\x1b[0mtest_api.py\x1b[0m \x1b[32m✓\x1b[0m                                    \x1b[32m96% \x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m▋\x1b[0m"
-
 sleep_count=0.1
 
 for i in `seq 1 1800`; do
@@ -26,5 +24,6 @@ for i in `seq 1 1800`; do
   sleep ${sleep_count}
   echo -ne '#######################   (100%)\r'
   echo -ne '\n'
+  echo "\r \x1b[36mmain/surveys/tests/\x1b[0mtest_sets_long_msg.py\x1b[0m \x1b[32m✓\x1b[0m\x1b[32m✓\x1b[0m                      \x1b[32m96% \x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m█\x1b[0m\x1b[40m\x1b[32m▋\x1b[0m"
 
 done
