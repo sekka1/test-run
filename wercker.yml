@@ -23,4 +23,4 @@ build:
         name: two
         cwd: /pipeline/source
         code: |
-          ./run1.sh
+          /pipeline/source/run1.sh
