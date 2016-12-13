@@ -10,4 +10,5 @@ build:
         code: |
           ls -l
           pwd
+          ls /pipeline/source
           ./run1.sh
