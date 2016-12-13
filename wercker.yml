@@ -14,8 +14,6 @@ build:
           pwd
           echo "xxxxxxxxx"
           ls -l /pipeline
-          echo "xxxxxxxxx"
-          cat /pipeline/source/run1.sh
           # echo "xxxxxxxxx"
           ls -l /pipeline/source
           echo "xxxxxxxxx"
