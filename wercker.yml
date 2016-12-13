@@ -3,6 +3,7 @@
 build:
   box:
     id: ubuntu:14.04.4
+    bin: /bin/bash -x
 
   steps:
     - script:
@@ -13,4 +14,4 @@ build:
           chmod 777 run1.sh
           cat run1.sh
           ls /pipeline/source
-          cat /pipeline/source/run1.sh
+          #cat /pipeline/source/run1.sh
