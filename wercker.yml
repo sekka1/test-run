@@ -11,4 +11,4 @@ build:
           ls -l
           pwd
           ls /pipeline/source
-          /pipeline/source/run1.sh
+          cat /pipeline/source/run1.sh
