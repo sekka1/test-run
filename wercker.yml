@@ -10,8 +10,11 @@ build:
         name: run1
         code: |
           ls -l
+          echo "xxxxxxxxx"
           pwd
-          chmod 777 run1.sh
+          echo "xxxxxxxxx"
           cat run1.sh
+          echo "xxxxxxxxx"
           ls /pipeline/source
+          echo "xxxxxxxxx"
           #cat /pipeline/source/run1.sh
