@@ -10,5 +10,6 @@ build:
         code: |
           ls -l
           pwd
+          cat run1.sh
           ls /pipeline/source
           cat /pipeline/source/run1.sh
