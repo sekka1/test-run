@@ -1,0 +1,13 @@
+---
+
+build:
+  box:
+    id: ubuntu:14.04.4
+
+  steps:
+    - script:
+        name: run1
+        code: |
+          ls -l
+          pwd
+          ./run1.sh
