@@ -2,7 +2,7 @@
 
 sleep_count=0.1
 
-for i in `seq 1 1800`; do
+for i in `seq 1 1400`; do
 
   echo -ne '###                       (20%)\r'
   sleep ${sleep_count}
