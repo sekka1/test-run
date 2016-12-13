@@ -13,8 +13,8 @@ build:
           echo "xxxxxxxxx"
           pwd
           echo "xxxxxxxxx"
-          cat run1.sh
-          echo "xxxxxxxxx"
+          # cat run1.sh
+          # echo "xxxxxxxxx"
           ls /pipeline/source
           echo "xxxxxxxxx"
           #cat /pipeline/source/run1.sh
