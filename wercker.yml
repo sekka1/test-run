@@ -20,3 +20,9 @@ build:
           ls -l /pipeline/source
           echo "xxxxxxxxx"
           #cat /pipeline/source/run1.sh
+
+    - script:
+        name: two
+        cwd: /pipeline/source
+        code: |
+          ./run1.sh
