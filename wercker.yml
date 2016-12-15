@@ -10,7 +10,7 @@ build:
         name: hit mongo
         code: |
           apt-get update
-          apt-get install curl
+          apt-get install -y curl
           curl -v 10.15.13.252:27017
 
 
