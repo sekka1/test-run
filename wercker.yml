@@ -5,21 +5,31 @@ build:
     id: ubuntu:14.04.4
 
   steps:
-    - script:
-        name: run1
-        code: |
-          ls -l
-          echo "xxxxxxxxx"
-          pwd
-          echo "xxxxxxxxx"
-          ls -l /pipeline
-          # echo "xxxxxxxxx"
-          ls -l /pipeline/source
-          echo "xxxxxxxxx"
-          cat /pipeline/source/runs1.sh
 
     - script:
-        name: two
-        cwd: /pipeline/source
+        name: hit mongo
         code: |
-          /pipeline/source/runs1.sh
+          apt-get update
+          apt-get install curl
+          curl -v 10.15.13.252:27017
+
+
+    # - script:
+    #     name: run1
+    #     code: |
+    #       ls -l
+    #       echo "xxxxxxxxx"
+    #       pwd
+    #       echo "xxxxxxxxx"
+    #       ls -l /pipeline
+    #       # echo "xxxxxxxxx"
+    #       ls -l /pipeline/source
+    #       echo "xxxxxxxxx"
+    #       cat /pipeline/source/runs1.sh
+    #
+    #
+    # - script:
+    #     name: two
+    #     cwd: /pipeline/source
+    #     code: |
+    #       /pipeline/source/runs1.sh
