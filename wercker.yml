@@ -12,8 +12,8 @@ build:
           apt-get update
           apt-get install -y curl
 
-          echo "curl https://kubernetes"
-          curl -v https://kubernetes --insecure
+          # echo "curl https://kubernetes"
+          # curl -v https://kubernetes --insecure
 
           echo "mongo staging: curl -v 10.15.13.252:27017"
           curl -v 10.15.13.252:27017
