@@ -15,8 +15,8 @@ build:
           # echo "curl https://kubernetes"
           # curl -v https://kubernetes --insecure
 
-          echo "mongo staging: curl -v 10.15.13.252:27017"
-          curl -v 10.15.13.252:27017
+          # echo "mongo staging: curl -v 10.15.13.252:27017"
+          # curl -v 10.15.13.252:27017
 
 
           echo "mongo prod: curl mongodb-01-app.wercker.com:27017"
