@@ -18,9 +18,12 @@ build:
           # echo "mongo staging: curl -v 10.15.13.252:27017"
           # curl -v 10.15.13.252:27017
 
+          # echo "mongo prod: curl mongodb-01-app.wercker.com:27017"
+          # curl -v mongodb-01-app.wercker.com:27017
 
-          echo "mongo prod: curl mongodb-01-app.wercker.com:27017"
-          curl -v mongodb-01-app.wercker.com:27017
+          echo "mongo prod by ip: curl 10.0.71.247:27017"
+          curl -v 10.0.71.247:27017
+
 
 
     # - script:
