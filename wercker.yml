@@ -12,18 +12,38 @@ build:
           apt-get update
           apt-get install -y curl
 
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
           echo "curl https://kubernetes"
           curl -v https://kubernetes --insecure | true
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
           echo "mongo staging: curl -v 10.15.13.252:27017"
           curl -v 10.15.13.252:27017 | true
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-          # echo "mongo prod: curl mongodb-01-app.wercker.com:27017"
-          # curl -v mongodb-01-app.wercker.com:27017
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "mongo prod: curl mongodb-01-app.wercker.com:27017"
+          curl -v mongodb-01-app.wercker.com:27017 | true
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 
-          # echo "mongo prod by ip: curl 10.0.71.247:27017"
-          # curl -v 10.0.71.247:27017
-
+          echo "mongo prod by ip: curl 10.0.71.247:27017"
+          curl -v 10.0.71.247:27017 | true
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
+          echo "XXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 
     # - script:
